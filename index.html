@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delícias da Duda — Sacolé Gourmet</title>
+<meta name="description" content="Sacolé gourmet artesanal feito à mão pela Duda. Peça pelo WhatsApp, confira os pontos de retirada e receba geladinho.">
+
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- CSS separado -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ BARRA SUPERIOR (Instagram) ============ -->
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <span>Feito à mão, um sacolé de cada vez 🍦</span>
+  </div>
+</div>
+
+<!-- ============ NAVEGAÇÃO PRINCIPAL ============ -->
+<header class="navbar" id="topo">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#topo">
+      <img src="img/logo-duda.jpg" alt="Logo Delícias da Duda">
+      <span>Delícias da Duda<br><small>Sacolé Gourmet</small></span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#topo">Início</a>
+      <a href="#sabores">Sabores</a>
+      <a href="#retirada">Pontos de Retirada</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Botão de WhatsApp fica sempre visível no topo, não flutuante -->
+    <a class="btn btn-whatsapp nav-cta" id="navWhatsappBtn" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.7.9-.9 1.1-.4.2-.7.1a8.3 8.3 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5S9.2 7.7 9 7.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.3s1 2.6 1.1 2.8c.1.2 2 3.1 4.9 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+      <span>Peça Agora</span>
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ===== Imagem principal ===== -->
+  <section class="hero">
+    <div class="hero-ribbon" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Sacolé gourmet artesanal</p>
+        <h1>Delícias da Duda: os melhores sacolés gourmet da região!</h1>
+        <p class="lead">Cremosos, artesanais e deliciosos — feitos à mão, um de cada vez, com recheio de verdade em cada mordida.</p>
+        <a class="btn btn-primary" id="heroWhatsappBtn" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.7.9-.9 1.1-.4.2-.7.1a8.3 8.3 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5S9.2 7.7 9 7.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.3s1 2.6 1.1 2.8c.1.2 2 3.1 4.9 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+          <span id="heroWhatsappLabel">Peça Agora</span>
+        </a>
+        <p class="hero-phone">
+          <a href="https://instagram.com/dudaa_gourmet" target="_blank" rel="noopener" class="hero-instagram" aria-label="Abrir Instagram @dudaa_gourmet">
+            <svg class="hero-instagram-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2c3.2 0 3.58.01 4.85.07 3.25.15 4.77 1.69 4.92 4.92.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.15 3.23-1.66 4.77-4.92 4.92-1.27.06-1.64.07-4.85.07s-3.58-.01-4.85-.07c-3.26-.15-4.77-1.7-4.92-4.92-.06-1.27-.07-1.65-.07-4.85s.02-3.58.07-4.85c.15-3.23 1.66-4.77 4.92-4.92 1.27-.06 1.65-.07 4.85-.07zM12 0C8.74 0 8.33.01 7.05.07 2.7.27.27 2.7.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.2 4.35 2.63 6.78 6.98 6.98C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c4.35-.2 6.78-2.63 6.98-6.98.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.2-4.35-2.63-6.78-6.98-6.98C15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1 0 18.16 12 6.16 6.16 0 0 0 12 5.84zM12 16a4 4 0 1 1 4-4 4 4 0 0 1-4 4z"/><circle cx="18.41" cy="5.6" r="1.44"/></svg>
+            @dudaa_gourmet
+          </a>
+          <span>📞 <span id="phoneDisplay">(32) 9 9949-5615</span></span>
+        </p>
+      </div>
+
+      <!-- Imagem principal do hero.
+           O endereço já está pronto: é só colocar seu arquivo em img/Fundo.jpg
+           (mesmo nome) que a foto aparece aqui automaticamente. -->
+      <div class="hero-visual reveal" id="heroVisual">
+        <span class="hero-tape" aria-hidden="true"></span>
+        <div class="media-slot media-slot--hero" id="heroMediaSlot">
+          <span class="media-slot-hint">
+            📷 Coloque aqui a imagem principal<br>
+            <code>img/Fundo.jpg</code>
+          </span>
+          <img id="heroImage" src="img/Fundo.jpg" alt="Sacolés gourmet Delícias da Duda" loading="eager">
+        </div>
+        <span class="hero-sprinkle s1" aria-hidden="true">🍧</span>
+        <span class="hero-sprinkle s2" aria-hidden="true">✨</span>
+        <span class="hero-sprinkle s3" aria-hidden="true">🍓</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SABORES ============ -->
+  <section class="flavors" id="sabores">
+    <div class="wrap">
+      <h2 class="section-title">Nossos Sabores 🍭</h2>
+      <p class="section-sub">Delicie-se com os olhos! Conheça todas as nossas criações artesanais e escolha o seu sabor predileto para a próxima encomenda.</p>
+      <!-- Os cards abaixo são gerados via JS a partir de main.js (array "flavors").
+           Cada sabor tem um campo "image" — troque o arquivo com o mesmo nome
+           dentro da pasta img/ que a foto do produto aparece automaticamente aqui,
+           com o nome do sabor escrito por cima. -->
+      <div class="flavor-grid" id="flavorGrid"></div>
+      <p class="flavors-note">Cardápio pode variar conforme a semana — confirme no nosso WhatsApp.</p>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section class="testimonials">
+    <div class="wrap">
+      <h2 class="section-title">Depoimentos 💬</h2>
+      <p class="section-sub">O carinho de quem já provou e aprovou cada mordida.</p>
+      <!-- Gerado via JS a partir do array "testimonials" em main.js.
+           Cada item tem um campo "image" — coloque o print (screenshot)
+           com o mesmo nome dentro da pasta img/ e ele aparece aqui,
+           igualzinho a um mural de fotos, levemente torto tipo polaroid. -->
+      <div class="testimonial-grid" id="testimonialGrid"></div>
+      
+    </div>
+  </section>
+
+  <!-- ============ PONTOS DE RETIRADA ============ -->
+  <section class="pickup" id="retirada">
+    <div class="wrap">
+      <h2 class="section-title">Pontos de Retirada 📍</h2>
+      <p class="section-sub">Escolha o local mais próximo e combine a sua retirada com antecedência.</p>
+      <!-- Gerado via JS a partir do array "pickupPoints" em main.js.
+           Cada ponto tem um campo "image" — coloque uma foto do local
+           com o mesmo nome dentro da pasta img/ e o nome + horário
+           aparecem escritos por cima da imagem automaticamente. -->
+      <div class="pickup-grid" id="pickupGrid"></div>
+      <p class="placeholder-note">⚠️ Para mais informações , entre em contado com os locais de retirada!</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO / ENCOMENDA ============ -->
+  <section class="contact" id="contato">
+    <div class="wrap contact-grid">
+      <div class="contact-info reveal">
+        <h2>Seja Nosso Parceiro 🚀</h2>
+        <p>Entre em Contato </p>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="inputName">Nome</label>
+          <input type="text" id="inputName" name="name" placeholder="Seu nome" required>
+
+          <label for="inputPhone">WhatsApp</label>
+          <input type="tel" id="inputPhone" name="phone" placeholder="(32) 9 0000-0000" required>
+
+          <label for="inputMessage">Mensagem</label>
+          <textarea id="inputMessage" name="message" rows="3" placeholder="Vamos conversar sobre uma parceria?"></textarea>
+
+          <button type="submit" class="btn btn-whatsapp" id="formSubmitBtn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.2-1.8-.9-2-1s-.5-.1-.7.1-.7.9-.9 1.1-.4.2-.7.1a8.3 8.3 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5S9.2 7.7 9 7.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.3s1 2.6 1.1 2.8c.1.2 2 3.1 4.9 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.8-.7 2-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+          <p class="form-hint" id="formHint" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="contact-map reveal">
+
+        <!-- Mapa -->
+       <iframe
+    title="Mapa de localização"
+    class="map-frame"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.2!2d-42.997228!3d-21.154874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDA5JzE3LjUiUyA0MsKwNTknNTAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1!5m2!1spt-BR!2sbr"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen="">
+</iframe>
+<p class="map-caption">📍 Meu Endereço.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="flavor-modal" id="flavorModal" role="dialog" aria-modal="true" aria-labelledby="flavorModalTitle" hidden>
+  <div class="flavor-modal-content">
+    <button class="flavor-modal-close" type="button" data-flavor-modal-close aria-label="Fechar imagem ampliada">&times;</button>
+    <div class="flavor-modal-media">
+      <img id="flavorModalImage" src="" alt="">
+      <div class="flavor-modal-caption">
+        <h2 id="flavorModalTitle"></h2>
+        <p id="flavorModalDescription"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-bottom">
+    <span>Delícias da Duda | CNPJ: XX.XXX.XXX/0001-XX <br>
+       Endereço: <br>
+        Colônia Padre Damião - Rua Jocelino de Oliveira, 277, Ubá-MG</span>
+    <span id="yearSpan"></span>
+  </div>
+</footer>
+
+<!-- JS separado, carregado como módulo (usa export/import) -->
+<script type="module" src="main.js"></script>
+</body>
+</html>
