@@ -359,6 +359,7 @@ body.flavor-modal-open{overflow:hidden;}
   aspect-ratio:3/4;
   background:var(--cream-2);
   border-radius:10px;
+  overflow:hidden;
   padding:10px 10px 26px;
   box-shadow:var(--shadow-soft);
   transition:transform .25s ease, box-shadow .25s ease;
