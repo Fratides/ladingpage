@@ -86,6 +86,13 @@ export const pickupPoints = [
     image: "img/local/bar.do.marcelo.JPG",
     mapLink: "https://www.google.com/maps/@-21.2335002,-43.0664201,3a,75y,175.09h,87.03t/data=!3m7!1e1!3m5!1seExIq1oPH9BiFjlaZ4AIgA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.9737599452518566%26panoid%3DeExIq1oPH9BiFjlaZ4AIgA%26yaw%3D175.08882338294111!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDgyNS4wIKXMDSoASAFQAw%3D%3D",
   },
+  {
+    name: "Point do Açaí",
+    address: "Av. Joaquim Dias Santiago, 404 - Tocantins-MG",
+    hours: "Seg a Sex · 13h - 20h | Sáb e Dom· 13h - 21h",
+    image: "img/local/point.do.acai.jpg",
+    mapLink: "https://www.google.com/maps/@-21.1688332,-43.026451,3a,90y,34.78h,71.37t/data=!3m7!1e1!3m5!1slr7oEm4dygPlFBiFRpeV-w!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D18.630964661450463%26panoid%3Dlr7oEm4dygPlFBiFRpeV-w%26yaw%3D34.77752904449914!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI2MDgyNi4wIKXMDSoASAFQAw%3D%3D",
+  },
 ];
 
 /* --------------------------------------------------------------------------
