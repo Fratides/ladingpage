@@ -34,9 +34,13 @@ export const flavors = [
 
   { name: "Laka c/ Morango", image: "img/sabores/lakacmorango.JPEG", description: "A doçura marcante do chocolate Laka combinada perfeitamente com uma geleia de morango artesanal de dar água na boca." },
 
+  { name: "Napolitano", image: "img/sabores/napolitano.JPG", description: "Combinação cremosa de baunilha e chocolate com coração de calda de morango, mergulhada em uma casquinha crocante de chocolate branco e ao leite com detalhes em morango." },
+
   { name: "Coco", image: "img/sabores/coco.JPEG", description: "Preparado com coco fresco e natural, garantindo aquela cremosidade irresistível e um sabor autêntico que derrete na boca." },
 
   { name: "Tablito", image: "img/sabores/tablito.JPEG", description: "Base cremosa de baunilha com recheio cremoso de brigadeiro, envolvida por uma casquinha de chocolate branco com pedacinhos crocantes de amendoim." },
+
+  { name: "Morango Cravejado", image: "img/sabores/morango-cravejado.JPG", description: "Picolé cremoso de baunilha recheado com geleia de morango, coberto por chocolate branco e flocos crocantes de morango." },
 
   { name: "Pudim", image: "img/sabores/chupchup-pudim.jpg", description: "A cremosidade inconfundível do tradicional pudim de leite condensado em formato de geladinho, finalizado com aquela calda de caramelo dourada e irresistível." },
 
@@ -78,6 +82,20 @@ export const pickupPoints = [
     hours: "Qua, Quin e Sex · 16h - 22h | Sáb · 11h - 22h | Dom · 10h - 15h",
     image: "img/local/penareia.JPEG",
     mapLink: "https://www.google.com/maps/place/P%C3%A9+N%E2%80%99areia+Sports/@-21.1772435,-43.0278931,3a,75y,319.35h,97.39t/data=!3m7!1e1!3m5!1sMMbj8zIzj4FeyYcoXXqSfQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D-7.386770996514414%26panoid%3DMMbj8zIzj4FeyYcoXXqSfQ%26yaw%3D319.3477185326571!7i16384!8i8192!4m6!3m5!1s0xa303001b20057d:0x72086301a6d04f84!8m2!3d-21.1772758!4d-43.0278622!16s%2Fg%2F11vyzf4n38?entry=ttu&g_ep=EgoyMDI2MDgyNS4wIKXMDSoASAFQAw%3D%3D",
+  },
+  {
+    name: "Colinas club",
+    address: "Rua Escrivão Castro, 127, Tocantins - MG, Cep:36512-000",
+    hours: "Quar · 8h - 19h | Quin · Sex · Sab - 8h - 18h | Dom · 8h - 11h",
+    image: "img/local/colinas.club.JPG",
+    mapLink: "https://www.google.com/maps/place/Colinas+Club/@-21.1763265,-43.0221779,17z/data=!3m1!4b1!4m6!3m5!1s0xa302ac7c1ba2c9:0xe0db78d4df485eed!8m2!3d-21.1763265!4d-43.0221779!16s%2Fg%2F11csrv2yg9?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
+  },
+  {
+    name: "Arena tia paré",
+    address: "avenida darcy prata, R. Granja Aurimar, Piraúba - MG, 36170-000",
+    hours: "Todos os dias, mediante disponibilidade",
+    image: "img/local/arena.tia.pare.JPG",
+    mapLink: "https://www.google.com/maps/place/arena+Tia+Par%C3%A9/@-21.2703654,-43.0209079,17z/data=!3m1!4b1!4m6!3m5!1s0xa2e5003e3bf815:0x362ba094335de631!8m2!3d-21.2703654!4d-43.018333!16s%2Fg%2F11vrdbnqj0?entry=ttu&g_ep=EgoyMDI2MTExMC4wIKXMDSoASAFQAw%3D%3D",
   },
   {
     name: "Bar do Marcelo",
