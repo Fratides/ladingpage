@@ -477,7 +477,7 @@ body.flavor-modal-open{overflow:hidden;}
    ========================================================================== */
 @media (max-width:980px){
   .hero-inner{grid-template-columns:1fr; text-align:center;}
-  .hero-visual{order:-1; max-width:260px; margin:0 auto;}
+  .hero-visual{order:-1; width:100%; max-width:380px; margin:0 auto;}
   .hero-text .lead{margin-left:auto; margin-right:auto;}
   .hero-phone{align-items:center;}
   .flavor-grid{grid-template-columns:repeat(3,1fr);}
